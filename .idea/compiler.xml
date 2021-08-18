@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-server" />
+        <module name="coin-exchange-engine-service" />
+        <module name="coin-common" />
+        <module name="coin-match-api" />
+        <module name="coin-task-api" />
+        <module name="coin-task-service" />
+        <module name="coin-chan-api" />
+        <module name="authorization-server" />
+        <module name="coin-match-service" />
+        <module name="coin-finance-service" />
+        <module name="coin-statistics-api" />
+        <module name="coin-statistics-service" />
+        <module name="coin-chan-service" />
+        <module name="coin-finance-api" />
+        <module name="coin-member-service" />
+        <module name="coin-exchange-engine-api" />
+        <module name="coin-member-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="-parameters" />
+      <module name="coin-chan" options="-parameters" />
+      <module name="coin-chan-api" options="-parameters" />
+      <module name="coin-chan-service" options="-parameters" />
+      <module name="coin-common" options="-parameters" />
+      <module name="coin-exchange-engine" options="-parameters" />
+      <module name="coin-exchange-engine-api" options="-parameters" />
+      <module name="coin-exchange-engine-service" options="-parameters" />
+      <module name="coin-finance" options="-parameters" />
+      <module name="coin-finance-api" options="-parameters" />
+      <module name="coin-finance-service" options="-parameters" />
+      <module name="coin-isaa" options="-parameters" />
+      <module name="coin-match" options="-parameters" />
+      <module name="coin-match-api" options="-parameters" />
+      <module name="coin-match-service" options="-parameters" />
+      <module name="coin-member" options="-parameters" />
+      <module name="coin-member-api" options="-parameters" />
+      <module name="coin-member-service" options="-parameters" />
+      <module name="coin-statistics" options="-parameters" />
+      <module name="coin-statistics-api" options="-parameters" />
+      <module name="coin-statistics-service" options="-parameters" />
+      <module name="coin-task" options="-parameters" />
+      <module name="coin-task-api" options="-parameters" />
+      <module name="coin-task-service" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+    </option>
+  </component>
+</project>

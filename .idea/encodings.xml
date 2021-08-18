@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-chan/coin-chan-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-chan/coin-chan-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-exchange-engine/coin-exchange-engine-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-exchange-engine/coin-exchange-engine-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-finance/coin-finance-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-finance/coin-finance-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-isaa/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-isaa/gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-match/coin-match-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-match/coin-match-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-member/coin-member-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-member/coin-member-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-statistics/coin-statistics-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-statistics/coin-statistics-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-task/coin-task-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coin-task/coin-task-service/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

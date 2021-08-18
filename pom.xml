@@ -4,10 +4,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xiaoczz</groupId>
+    <groupId>org.example</groupId>
     <artifactId>coin-exchange</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>coin-isaa</module>
+        <module>coin-common</module>
+        <module>coin-member</module>
+        <module>coin-finance</module>
+        <module>coin-chan</module>
+        <module>coin-task</module>
+        <module>coin-statistics</module>
+        <module>coin-statistics</module>
+        <module>coin-match</module>
+        <module>coin-exchange-engine</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,7 +29,7 @@
     </parent>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
         <com-alibaba-cloud.version>2.2.0.RELEASE</com-alibaba-cloud.version>
         <mybatis-plus-boot-stater.version>3.3.2</mybatis-plus-boot-stater.version>
@@ -212,5 +224,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>
